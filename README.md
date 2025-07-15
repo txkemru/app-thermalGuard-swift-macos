@@ -20,7 +20,7 @@ A modern macOS system monitoring app for Apple Silicon Macs, inspired by TG Pro.
 
 - macOS 15.3+
 - Xcode 16+
-- Apple Silicon Mac (M1/M2/M3)
+- Apple Silicon Mac (M1/M2/M3/M4)
 
 ## Development
 
