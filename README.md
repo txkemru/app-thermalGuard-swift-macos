@@ -14,12 +14,7 @@ A modern macOS system monitoring app for Apple Silicon Macs, inspired by TG Pro.
 
 ⚠️ **UI Only** - Currently implements the complete user interface with mock data. Real system monitoring functionality is planned for future updates.
 
-## Screenshots
 
-- Sidebar navigation with sensor categories
-- Main content area with temperature and usage sensors
-- Bottom panel with fan controls and system diagnostics
-- Adaptive layout that responds to window resizing
 
 ## Requirements
 
