@@ -1,0 +1,546 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		ED790B032E2653CC00294919 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ED790AE72E2653CB00294919 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ED790AEE2E2653CB00294919;
+			remoteInfo = ThermalGuard;
+		};
+		ED790B0D2E2653CC00294919 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ED790AE72E2653CB00294919 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ED790AEE2E2653CB00294919;
+			remoteInfo = ThermalGuard;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ED790AEF2E2653CB00294919 /* ThermalGuard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ThermalGuard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED790B022E2653CC00294919 /* ThermalGuardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ThermalGuardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED790B0C2E2653CC00294919 /* ThermalGuardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ThermalGuardUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		ED790AF12E2653CB00294919 /* ThermalGuard */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = ThermalGuard;
+			sourceTree = "<group>";
+		};
+		ED790B052E2653CC00294919 /* ThermalGuardTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = ThermalGuardTests;
+			sourceTree = "<group>";
+		};
+		ED790B0F2E2653CC00294919 /* ThermalGuardUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = ThermalGuardUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ED790AEC2E2653CB00294919 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED790AFF2E2653CC00294919 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED790B092E2653CC00294919 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ED790AE62E2653CB00294919 = {
+			isa = PBXGroup;
+			children = (
+				ED790AF12E2653CB00294919 /* ThermalGuard */,
+				ED790B052E2653CC00294919 /* ThermalGuardTests */,
+				ED790B0F2E2653CC00294919 /* ThermalGuardUITests */,
+				ED790AF02E2653CB00294919 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ED790AF02E2653CB00294919 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ED790AEF2E2653CB00294919 /* ThermalGuard.app */,
+				ED790B022E2653CC00294919 /* ThermalGuardTests.xctest */,
+				ED790B0C2E2653CC00294919 /* ThermalGuardUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ED790AEE2E2653CB00294919 /* ThermalGuard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED790B162E2653CC00294919 /* Build configuration list for PBXNativeTarget "ThermalGuard" */;
+			buildPhases = (
+				ED790AEB2E2653CB00294919 /* Sources */,
+				ED790AEC2E2653CB00294919 /* Frameworks */,
+				ED790AED2E2653CB00294919 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				ED790AF12E2653CB00294919 /* ThermalGuard */,
+			);
+			name = ThermalGuard;
+			packageProductDependencies = (
+			);
+			productName = ThermalGuard;
+			productReference = ED790AEF2E2653CB00294919 /* ThermalGuard.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ED790B012E2653CC00294919 /* ThermalGuardTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED790B192E2653CC00294919 /* Build configuration list for PBXNativeTarget "ThermalGuardTests" */;
+			buildPhases = (
+				ED790AFE2E2653CC00294919 /* Sources */,
+				ED790AFF2E2653CC00294919 /* Frameworks */,
+				ED790B002E2653CC00294919 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ED790B042E2653CC00294919 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				ED790B052E2653CC00294919 /* ThermalGuardTests */,
+			);
+			name = ThermalGuardTests;
+			packageProductDependencies = (
+			);
+			productName = ThermalGuardTests;
+			productReference = ED790B022E2653CC00294919 /* ThermalGuardTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		ED790B0B2E2653CC00294919 /* ThermalGuardUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED790B1C2E2653CC00294919 /* Build configuration list for PBXNativeTarget "ThermalGuardUITests" */;
+			buildPhases = (
+				ED790B082E2653CC00294919 /* Sources */,
+				ED790B092E2653CC00294919 /* Frameworks */,
+				ED790B0A2E2653CC00294919 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ED790B0E2E2653CC00294919 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				ED790B0F2E2653CC00294919 /* ThermalGuardUITests */,
+			);
+			name = ThermalGuardUITests;
+			packageProductDependencies = (
+			);
+			productName = ThermalGuardUITests;
+			productReference = ED790B0C2E2653CC00294919 /* ThermalGuardUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ED790AE72E2653CB00294919 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1640;
+				LastUpgradeCheck = 1640;
+				TargetAttributes = {
+					ED790AEE2E2653CB00294919 = {
+						CreatedOnToolsVersion = 16.4;
+					};
+					ED790B012E2653CC00294919 = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = ED790AEE2E2653CB00294919;
+					};
+					ED790B0B2E2653CC00294919 = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = ED790AEE2E2653CB00294919;
+					};
+				};
+			};
+			buildConfigurationList = ED790AEA2E2653CB00294919 /* Build configuration list for PBXProject "ThermalGuard" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ED790AE62E2653CB00294919;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = ED790AF02E2653CB00294919 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ED790AEE2E2653CB00294919 /* ThermalGuard */,
+				ED790B012E2653CC00294919 /* ThermalGuardTests */,
+				ED790B0B2E2653CC00294919 /* ThermalGuardUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ED790AED2E2653CB00294919 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED790B002E2653CC00294919 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED790B0A2E2653CC00294919 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ED790AEB2E2653CB00294919 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED790AFE2E2653CC00294919 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED790B082E2653CC00294919 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ED790B042E2653CC00294919 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ED790AEE2E2653CB00294919 /* ThermalGuard */;
+			targetProxy = ED790B032E2653CC00294919 /* PBXContainerItemProxy */;
+		};
+		ED790B0E2E2653CC00294919 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ED790AEE2E2653CB00294919 /* ThermalGuard */;
+			targetProxy = ED790B0D2E2653CC00294919 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		ED790B142E2653CC00294919 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		ED790B152E2653CC00294919 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		ED790B172E2653CC00294919 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = ThermalGuard/ThermalGuard.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = VP.ThermalGuard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		ED790B182E2653CC00294919 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = ThermalGuard/ThermalGuard.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = VP.ThermalGuard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		ED790B1A2E2653CC00294919 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = VP.ThermalGuardTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ThermalGuard.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ThermalGuard";
+			};
+			name = Debug;
+		};
+		ED790B1B2E2653CC00294919 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = VP.ThermalGuardTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ThermalGuard.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ThermalGuard";
+			};
+			name = Release;
+		};
+		ED790B1D2E2653CC00294919 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = VP.ThermalGuardUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = ThermalGuard;
+			};
+			name = Debug;
+		};
+		ED790B1E2E2653CC00294919 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = VP.ThermalGuardUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = ThermalGuard;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ED790AEA2E2653CB00294919 /* Build configuration list for PBXProject "ThermalGuard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED790B142E2653CC00294919 /* Debug */,
+				ED790B152E2653CC00294919 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED790B162E2653CC00294919 /* Build configuration list for PBXNativeTarget "ThermalGuard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED790B172E2653CC00294919 /* Debug */,
+				ED790B182E2653CC00294919 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED790B192E2653CC00294919 /* Build configuration list for PBXNativeTarget "ThermalGuardTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED790B1A2E2653CC00294919 /* Debug */,
+				ED790B1B2E2653CC00294919 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED790B1C2E2653CC00294919 /* Build configuration list for PBXNativeTarget "ThermalGuardUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED790B1D2E2653CC00294919 /* Debug */,
+				ED790B1E2E2653CC00294919 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ED790AE72E2653CB00294919 /* Project object */;
+}
